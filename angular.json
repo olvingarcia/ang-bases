@@ -99,8 +99,19 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/bases",
+            "netlifyToken": "",
+            "siteId": ""
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "d976542a-2810-45e0-be80-b32fd21bcc90"
   }
 }
